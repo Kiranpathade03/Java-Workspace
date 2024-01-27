@@ -7,7 +7,7 @@ class Parent {
         System.out.println("in m1()");
     }
     Parent obj1=new Parent();
-    obj1.m1();
+    // obj1.m1();
 
 }
 

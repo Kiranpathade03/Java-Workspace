@@ -11,10 +11,15 @@ public class NestedTryCatch {
         } catch (IOException e) {
             int a = 0;
             try {
-                a = 4 / 0;
+                a = 4 / 2;
             } catch (Exception ex) {
                 System.out.println(a);
+                System.out.println("In CAtch block");
             }
+            System.out.println("In CAtch block");
+
+        }finally{
+           System.out.println("In Finally block");
         }
     }
 }

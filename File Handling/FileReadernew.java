@@ -21,10 +21,12 @@ public class FileReadernew {
             
             BufferedReader br=new BufferedReader(new FileReader("C:\\Users\\kiramn patahade\\Desktop\\JAVA class\\Java-Workspace\\File Handling\\createfile.txt"));
 
-            System.out.println(br.readLine());
+            System.out.println(br.readLine()+" kiranpathade");
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+
     }
 }

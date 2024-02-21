@@ -8,7 +8,7 @@ public class WritingATableInAFile {
                     "C:\\Users\\kiramn patahade\\Desktop\\JAVA class\\Java-Workspace\\File Handling\\createfile.txt" );
             try {
                for(int i=1; i<=10; i++){
-                int ans=i*2597;
+                int ans=i*259;
                 String number=Integer.toString(ans);
                 fr.write(number +"\n");
                }
